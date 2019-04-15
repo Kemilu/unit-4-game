@@ -1,0 +1,56 @@
+img{
+    padding-right: 20px;
+    float: left;
+    width:  150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-image: url("../images/crystalgame.jpg");
+    margin-top: 50px;
+	margin-left: 50px;
+    font-family: 'Graduate', cursive; 
+}
+
+.column-md-1{
+    background-color: white;
+}
+
+header{
+    color: purple;
+}
+
+.tracker{
+    background-color: #B3DDF2;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    float:left;
+    margin-bottom: 20px;
+}
+
+
+.outcome{
+    background-color: #B3DDF2;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    float:left;
+    margin-bottom: 25px;
+    font-size:35px;
+    
+}
+
+.text{
+    width: 600px;
+}
+
+.big{
+    font-size: 35px;
+}
+
+.spacing{
+    line-height: 15px;
+}
+
