@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Guessing Game</title>
+    <title>Crystal Guessing Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+    <header>
+        <h1>Crystal Guessing game</h1>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="column-md-6 text">
+                <p> You will be given a random number at the start of the game.</p>
+                <p> There are crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    total score.</p>
+                <p>You win the game by matching your total score to a random number, you lose the game if your total score goes
+                    above the random number.</p>
+                <p>The value of each team is hidden from you until you click on it!</p>
+                <p>Each time when the game starts, the game will change the values of each team.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column-md-4 tracker">
+                <p>Target Score:</p>
+                <p class="target big"></p>
+            </div>
+
+
+            <div class="column-md-4 tracker">
+                <p>Your total score is:</p>
+                <p class="counter big"></p>
+            </div>
+
+
+            <div class="column-md-4 tracker spacing">
+                <p>Wins:</p>
+                <p class="wins"></p>
+                <p>Losses:</p>
+                <p class="losses"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column-md-2">
+                <img class="img-responsive btn crystalone" src="assets/images/crystalone.jpg" alt="Crystal One">
+            </div>
+            <div class="column-md-2">
+                <img class="img-responsive btn crystaltwo" src="assets/images/crystaltwo.jpg" alt="Crystal Two">
+            </div>
+            <div class="column-md-2">
+                <img class="img-responsive btn crystalthree" src="assets/images/crystalthree.jpg" alt="Crystal Three">
+            </div>
+            <div class="column-md-2">
+                <img class="img-responsive btn crystalfour" src="assets/images/crystalfour.jpg" alt="Crystal Four">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column-md-12 outcome">
+                <p>
+                    <span class="outcome"></span>
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
